@@ -32,7 +32,7 @@ This project provides a comprehensive analysis of employee salary data to help H
 ## Installation
 
 ```bash
-git clone https://github.com/yourusername/employee-salary-analysis.git
+git clone https://github.com/lol-ayik/employee-salary-analysis.git
 cd employee-salary-analysis
 pip install -r requirements.txt
 ```
