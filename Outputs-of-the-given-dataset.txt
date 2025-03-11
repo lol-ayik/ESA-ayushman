@@ -1,0 +1,68 @@
+Employee Salary Analysis
+=========================
+
+1. Basic Statistics:
+Total number of employees: 20
+Average salary: $102503.15
+Median salary: $101315.50
+Highest salary: $144637.00
+Lowest salary: $41742.00
+Salary standard deviation: $32459.74
+
+2. Department Analysis:
+            Count  Avg Salary  Median Salary  Min Salary  Max Salary   Std Dev
+Department                                                                    
+Finance         4    93680.75        94172.0       41742      144637  42013.48
+HR              8    95687.12       100989.5       46377      138397  32587.01
+IT              5   112647.60       122125.0       69121      140206  29529.57
+Sales           3   115535.00       123436.0       79949      143220  32367.02
+
+3. Age Group Analysis:
+           Count  Avg Salary  Median Salary
+Age Group                                  
+20-30          6   109882.83       121187.5
+31-40          2    90170.50        90170.5
+41-50          5   121789.40       122125.0
+51-60          7    85925.43        83010.0
+
+4. Experience vs Salary Correlation:
+Correlation coefficient: 0.25
+This indicates a weak positive correlation between experience and salary.
+
+5. Experience Group Analysis:
+                  Count  Avg Salary  Median Salary  Min Salary  Max Salary
+Experience Group                                                          
+0-5 yrs               3    85371.00        83010.0       41742      131361
+6-10 yrs              4    92171.25        94172.0       56905      123436
+11-20 yrs             7   108010.86       107468.0       46377      143220
+21-35 yrs             6   111531.50       117638.0       69121      144637
+
+6. Top 5 Highest Paid Employees:
+    EmployeeID  Age Department  Experience  Salary
+7            8   46    Finance          34  144637
+17          18   29      Sales          20  143220
+19          20   50         IT          28  140206
+3            4   23         HR          23  138397
+18          19   23         IT          14  134907
+
+7. Average Salary by Department and Experience Group:
+Experience Group   0-5 yrs  6-10 yrs  11-20 yrs  21-35 yrs
+Department                                                
+Finance            41742.0   94172.0        NaN  144637.00
+HR                107185.5   56905.0    88956.0  138397.00
+IT                     NaN       NaN   128516.0  102068.67
+Sales                  NaN  123436.0   143220.0   79949.00
+
+8. Additional Insights:
+Top 3 employees with highest experience-to-age ratio (fast climbers):
+    EmployeeID  Age Department  Experience  Exp-Age Ratio  Salary
+3            4   23         HR          23           1.00  138397
+7            8   46    Finance          34           0.74  144637
+17          18   29      Sales          20           0.69  143220
+
+Top 3 employees with highest salary per year of experience:
+    EmployeeID Department  Experience  Salary  Salary per Year Exp
+8            9         HR           2  131361              65680.5
+1            2    Finance           2   41742              20871.0
+15          16         HR           4   83010              20752.5
+
