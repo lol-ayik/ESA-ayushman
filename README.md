@@ -67,7 +67,7 @@ The script outputs detailed statistics to the console and generates three visual
 
 ## License
 
-MIT
+KIET
 
 ## Contributing
 
